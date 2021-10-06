@@ -16,6 +16,12 @@
 		FC1BC96E270D5826002E2682 /* Lab4_Bobing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC96D270D5826002E2682 /* Lab4_Bobing_AppTests.swift */; };
 		FC1BC978270D5826002E2682 /* Lab4_Bobing_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC977270D5826002E2682 /* Lab4_Bobing_AppUITests.swift */; };
 		FC1BC97A270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC979270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift */; };
+		FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25B270DDE68009FF985 /* LegendViewController.swift */; };
+		FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25D270DDF22009FF985 /* ProfileViewController.swift */; };
+		FCACA260270DE0EF009FF985 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25F270DE0EF009FF985 /* RuleViewController.swift */; };
+		FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */; };
+		FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */; };
+		FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026D270DCC3600896A6C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		FC1BC973270D5826002E2682 /* Lab4_Bobing_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4_Bobing_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1BC977270D5826002E2682 /* Lab4_Bobing_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4_Bobing_AppUITests.swift; sourceTree = "<group>"; };
 		FC1BC979270D5826002E2682 /* Lab4_Bobing_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4_Bobing_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCACA25B270DDE68009FF985 /* LegendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewController.swift; sourceTree = "<group>"; };
+		FCACA25D270DDF22009FF985 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FCACA25F270DE0EF009FF985 /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginpageViewController.swift; sourceTree = "<group>"; };
+		FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherloginViewController.swift; sourceTree = "<group>"; };
+		FCD0026D270DCC3600896A6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,12 @@
 				FC1BC956270D5823002E2682 /* AppDelegate.swift */,
 				FC1BC958270D5823002E2682 /* SceneDelegate.swift */,
 				FC1BC95A270D5823002E2682 /* ViewController.swift */,
+				FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */,
+				FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */,
+				FCD0026D270DCC3600896A6C /* HomeViewController.swift */,
+				FCACA25B270DDE68009FF985 /* LegendViewController.swift */,
+				FCACA25D270DDF22009FF985 /* ProfileViewController.swift */,
+				FCACA25F270DE0EF009FF985 /* RuleViewController.swift */,
 				FC1BC95C270D5823002E2682 /* Main.storyboard */,
 				FC1BC95F270D5826002E2682 /* Assets.xcassets */,
 				FC1BC961270D5826002E2682 /* LaunchScreen.storyboard */,
@@ -259,8 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1BC95B270D5823002E2682 /* ViewController.swift in Sources */,
+				FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */,
+				FCACA260270DE0EF009FF985 /* RuleViewController.swift in Sources */,
 				FC1BC957270D5823002E2682 /* AppDelegate.swift in Sources */,
 				FC1BC959270D5823002E2682 /* SceneDelegate.swift in Sources */,
+				FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */,
+				FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */,
+				FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */,
+				FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
