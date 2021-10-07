@@ -32,6 +32,13 @@ class HomeViewController: UIViewController {
         self.performSegue(withIdentifier:"toprofile", sender: self)
     }
     
+    @IBAction func StartaGroupbtn(_ sender: Any) {
+        self.performSegue(withIdentifier:"tocreate", sender: self)
+    }
+    @IBAction func JoinaGroupbtn(_ sender: Any) {
+        self.performSegue(withIdentifier:"tojoin", sender: self)
+    }
+    
     /*
     // MARK: - Navigation
 

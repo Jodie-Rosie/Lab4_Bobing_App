@@ -22,6 +22,7 @@
 		FCC9868D270EDD240051D60A /* BobingINGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9868C270EDD240051D60A /* BobingINGViewController.swift */; };
 		FCC9868F270EF69B0051D60A /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */; };
 		FCC98691270EF9780051D60A /* JoinGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC98690270EF9780051D60A /* JoinGroupViewController.swift */; };
+		FCC98693270EFD9B0051D60A /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC98692270EFD9B0051D60A /* ProfileEditViewController.swift */; };
 		FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */; };
 		FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */; };
 		FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026D270DCC3600896A6C /* HomeViewController.swift */; };
@@ -64,6 +65,7 @@
 		FCC9868C270EDD240051D60A /* BobingINGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobingINGViewController.swift; sourceTree = "<group>"; };
 		FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
 		FCC98690270EF9780051D60A /* JoinGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGroupViewController.swift; sourceTree = "<group>"; };
+		FCC98692270EFD9B0051D60A /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
 		FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginpageViewController.swift; sourceTree = "<group>"; };
 		FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherloginViewController.swift; sourceTree = "<group>"; };
 		FCD0026D270DCC3600896A6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				FCACA25F270DE0EF009FF985 /* RuleViewController.swift */,
 				FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */,
 				FCC98690270EF9780051D60A /* JoinGroupViewController.swift */,
+				FCC98692270EFD9B0051D60A /* ProfileEditViewController.swift */,
 				FC1BC95C270D5823002E2682 /* Main.storyboard */,
 				FC1BC95F270D5826002E2682 /* Assets.xcassets */,
 				FC1BC961270D5826002E2682 /* LaunchScreen.storyboard */,
@@ -296,6 +299,7 @@
 				FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */,
 				FCC9868F270EF69B0051D60A /* CreateGroupViewController.swift in Sources */,
 				FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */,
+				FCC98693270EFD9B0051D60A /* ProfileEditViewController.swift in Sources */,
 				FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

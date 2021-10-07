@@ -293,6 +293,9 @@
                                 <rect key="frame" x="-15" y="249" width="444" height="268"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Join a group icon"/>
+                                <connections>
+                                    <action selector="JoinaGroupbtn:" destination="GMh-YC-p5A" eventType="touchUpInside" id="Npg-ZV-URj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6V-Tp-zg3" userLabel="Rulesbtn">
                                 <rect key="frame" x="8" y="542" width="398" height="70"/>
@@ -330,6 +333,9 @@
                                 <rect key="frame" x="-129" y="44" width="535" height="240"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="star a group icon"/>
+                                <connections>
+                                    <action selector="StartaGroupbtn:" destination="GMh-YC-p5A" eventType="touchUpInside" id="GOE-oJ-BHe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="B7V-ay-ifT"/>
@@ -380,6 +386,8 @@
                         <segue destination="8dP-KY-qTB" kind="modal" identifier="tolegend" modalPresentationStyle="fullScreen" id="uWk-Gq-NEz"/>
                         <segue destination="8Wm-fh-Y2T" kind="modal" identifier="torule" modalPresentationStyle="fullScreen" id="xaD-ES-VmB"/>
                         <segue destination="gYA-lE-To8" kind="modal" identifier="toprofile" modalPresentationStyle="fullScreen" id="gr2-Yb-B7c"/>
+                        <segue destination="eoP-9a-92x" kind="modal" identifier="tocreate" modalPresentationStyle="fullScreen" id="7HY-is-NLB"/>
+                        <segue destination="wSd-Gk-FF4" kind="modal" identifier="tojoin" modalPresentationStyle="fullScreen" id="qaK-a5-XpZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T8o-IE-xbc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -549,6 +557,7 @@
                         <outlet property="Join1btn" destination="wrP-47-PZT" id="tZA-m3-x8s"/>
                         <outlet property="Join2btn" destination="Yii-0I-WXE" id="gUL-1V-87M"/>
                         <segue destination="GMh-YC-p5A" kind="modal" identifier="jointohome" modalPresentationStyle="fullScreen" id="feS-8T-JBS"/>
+                        <segue destination="Dhu-je-HBZ" kind="modal" identifier="jointoING" modalPresentationStyle="fullScreen" id="CAa-SU-PHg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZp-sM-HfR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -570,6 +579,9 @@
                                 <rect key="frame" x="-29" y="-43" width="126" height="132"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="befor icon"/>
+                                <connections>
+                                    <action selector="BeforeHome:" destination="Dhu-je-HBZ" eventType="touchUpInside" id="AJF-ll-BMx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12g-0s-FoW" userLabel="Userimagebtn">
                                 <rect key="frame" x="6" y="74" width="91" height="86"/>
@@ -734,6 +746,7 @@
                         <outlet property="Usernamelbl" destination="zZO-g2-CYq" id="j4v-YT-fiM"/>
                         <outlet property="Zhuangyuanlbl" destination="mgB-5Y-yiu" id="I3S-yJ-8WC"/>
                         <segue destination="5pc-KO-jvm" kind="modal" identifier="jointoING" modalPresentationStyle="fullScreen" id="35B-bl-TpP"/>
+                        <segue destination="GMh-YC-p5A" kind="modal" identifier="INGtohome" modalPresentationStyle="fullScreen" id="6Vx-DE-qJ4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DNr-rg-CWp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1067,7 +1080,7 @@
         <!--ProfileEdit View Controller-->
         <scene sceneID="2gm-kE-tSS">
             <objects>
-                <viewController id="5om-EJ-tIO" userLabel="ProfileEdit View Controller" sceneMemberID="viewController">
+                <viewController id="5om-EJ-tIO" userLabel="ProfileEdit View Controller" customClass="ProfileEditViewController" customModule="Lab4_Bobing_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dLk-Jt-Acy" userLabel="Profile edit page">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1079,6 +1092,9 @@
                                 <rect key="frame" x="-29" y="-43" width="126" height="132"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="befor icon"/>
+                                <connections>
+                                    <action selector="Beforeprofile:" destination="5om-EJ-tIO" eventType="touchUpInside" id="905-wf-AHj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pC3-ZX-7nd" userLabel="Userimagebtn">
                                 <rect key="frame" x="159" y="99" width="96" height="86"/>
@@ -1144,6 +1160,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                     <color key="baseForegroundColor" red="0.10980392160000001" green="0.1647058824" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="FInishedit:" destination="5om-EJ-tIO" eventType="touchUpInside" id="RXV-1k-WmO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4j7-LR-ohM"/>
@@ -1159,6 +1178,19 @@
                             <constraint firstItem="WMb-9E-H4d" firstAttribute="top" secondItem="dLk-Jt-Acy" secondAttribute="top" id="mvV-X2-1wk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Beforebtn" destination="u3b-co-VS7" id="Dk1-MC-iWf"/>
+                        <outlet property="Birthdaylbl" destination="lcI-Jq-Rzc" id="Wku-da-gsw"/>
+                        <outlet property="Emaillbl" destination="McU-e2-phK" id="Irt-tb-ooL"/>
+                        <outlet property="Finisheditbtn" destination="ZG8-kv-MMd" id="zyi-Jg-q65"/>
+                        <outlet property="Genderlbl" destination="HEj-w3-Nvd" id="4ix-hB-k7o"/>
+                        <outlet property="Grouplbl" destination="MjT-HI-nxn" id="1ht-e5-Gu3"/>
+                        <outlet property="IDlbl" destination="6Yu-Bq-VmW" id="GPI-N8-bEA"/>
+                        <outlet property="Locationlbl" destination="Gvw-Y0-cQB" id="l17-6J-PCr"/>
+                        <outlet property="Namelbl" destination="qjn-uT-aze" id="dJE-bg-N7X"/>
+                        <outlet property="Profileeditbackground" destination="WMb-9E-H4d" id="k0u-p8-zcW"/>
+                        <segue destination="gYA-lE-To8" kind="modal" identifier="toprofile" modalPresentationStyle="fullScreen" id="qeC-dC-mAE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uym-jJ-ZZo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1230,8 +1262,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="feS-8T-JBS"/>
-        <segue reference="DRr-qM-pNs"/>
+        <segue reference="gr2-Yb-B7c"/>
+        <segue reference="CAa-SU-PHg"/>
+        <segue reference="6Vx-DE-qJ4"/>
+        <segue reference="aAk-Jf-IGZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="414" height="896"/>
