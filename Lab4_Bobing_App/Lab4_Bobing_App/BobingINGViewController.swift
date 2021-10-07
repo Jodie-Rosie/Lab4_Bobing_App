@@ -191,7 +191,7 @@ class BobingINGViewController: UIViewController {
             Count_6 = 0
         }
         else{
-            Resultshowlbl.text = "  "
+            Resultshowlbl.text = "Thanks"
             Zhuangyuanlbl.text = "  "
         }
         ResultList = [UInt32]()
