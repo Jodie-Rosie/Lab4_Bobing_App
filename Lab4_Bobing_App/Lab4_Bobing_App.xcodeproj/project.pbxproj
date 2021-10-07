@@ -19,6 +19,9 @@
 		FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25B270DDE68009FF985 /* LegendViewController.swift */; };
 		FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25D270DDF22009FF985 /* ProfileViewController.swift */; };
 		FCACA260270DE0EF009FF985 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACA25F270DE0EF009FF985 /* RuleViewController.swift */; };
+		FCC9868D270EDD240051D60A /* BobingINGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9868C270EDD240051D60A /* BobingINGViewController.swift */; };
+		FCC9868F270EF69B0051D60A /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */; };
+		FCC98691270EF9780051D60A /* JoinGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC98690270EF9780051D60A /* JoinGroupViewController.swift */; };
 		FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */; };
 		FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */; };
 		FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD0026D270DCC3600896A6C /* HomeViewController.swift */; };
@@ -58,6 +61,9 @@
 		FCACA25B270DDE68009FF985 /* LegendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewController.swift; sourceTree = "<group>"; };
 		FCACA25D270DDF22009FF985 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FCACA25F270DE0EF009FF985 /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		FCC9868C270EDD240051D60A /* BobingINGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobingINGViewController.swift; sourceTree = "<group>"; };
+		FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		FCC98690270EF9780051D60A /* JoinGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGroupViewController.swift; sourceTree = "<group>"; };
 		FCD0022B270DB5FA00896A6C /* LoginpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginpageViewController.swift; sourceTree = "<group>"; };
 		FCD0026B270DC96B00896A6C /* OtherloginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherloginViewController.swift; sourceTree = "<group>"; };
 		FCD0026D270DCC3600896A6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +125,10 @@
 				FCD0026D270DCC3600896A6C /* HomeViewController.swift */,
 				FCACA25B270DDE68009FF985 /* LegendViewController.swift */,
 				FCACA25D270DDF22009FF985 /* ProfileViewController.swift */,
+				FCC9868C270EDD240051D60A /* BobingINGViewController.swift */,
 				FCACA25F270DE0EF009FF985 /* RuleViewController.swift */,
+				FCC9868E270EF69B0051D60A /* CreateGroupViewController.swift */,
+				FCC98690270EF9780051D60A /* JoinGroupViewController.swift */,
 				FC1BC95C270D5823002E2682 /* Main.storyboard */,
 				FC1BC95F270D5826002E2682 /* Assets.xcassets */,
 				FC1BC961270D5826002E2682 /* LaunchScreen.storyboard */,
@@ -280,9 +289,12 @@
 				FCD0022C270DB5FA00896A6C /* LoginpageViewController.swift in Sources */,
 				FCACA260270DE0EF009FF985 /* RuleViewController.swift in Sources */,
 				FC1BC957270D5823002E2682 /* AppDelegate.swift in Sources */,
+				FCC98691270EF9780051D60A /* JoinGroupViewController.swift in Sources */,
+				FCC9868D270EDD240051D60A /* BobingINGViewController.swift in Sources */,
 				FC1BC959270D5823002E2682 /* SceneDelegate.swift in Sources */,
 				FCD0026C270DC96B00896A6C /* OtherloginViewController.swift in Sources */,
 				FCACA25C270DDE68009FF985 /* LegendViewController.swift in Sources */,
+				FCC9868F270EF69B0051D60A /* CreateGroupViewController.swift in Sources */,
 				FCACA25E270DDF22009FF985 /* ProfileViewController.swift in Sources */,
 				FCD0026E270DCC3600896A6C /* HomeViewController.swift in Sources */,
 			);
